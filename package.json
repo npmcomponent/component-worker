@@ -1,21 +1,13 @@
 {
-  "name": "worker-component",
+  "name": "component-worker",
   "description": "Web worker API wrapper",
   "version": "0.1.0",
-  "keywords": [],
-  "dependencies": {
-    "emitter-component": "*"
-  },
-  "development": {},
-  "license": "MIT",
+  "keywords": [
+    "worker"
+  ],
   "main": "index.js",
-  "component": {
-    "scripts": {
-      "worker/index.js": "index.js"
-    }
+  "dependencies": {
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/worker.git"
-  }
+  "license": "MIT"
 }
